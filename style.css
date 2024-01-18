@@ -1,0 +1,84 @@
+body {
+  background-color: #8bb8a8;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  color: black;
+  overflow: hidden;
+}
+.container {
+  height: 60vh;
+  width: 60vw;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25) 0px 14px 28px
+    rgba(0, 0, 0, 0.22);
+}
+.gameContainer {
+  padding: 4px;
+  width: fit-content;
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+.box {
+  height: 15vh;
+  width: 15vh;
+  background-color: white;
+  border: black solid 2px;
+  border-radius: 1rem;
+  margin: 2px;
+  box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.3);
+  color: red;
+  font-size: 5rem;
+}
+#reset-btn {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #003b19;
+  color: #ffff;
+  width: 45vh;
+  font-weight: 600;
+  word-spacing: 2px;
+  border: white 2px solid;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+}
+#new-btn {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #16bac5;
+  color: black;
+  width: 45vh;
+  font-weight: 600;
+  word-spacing: 2px;
+  border: white 2px solid;
+  letter-spacing: 1.4px;
+  margin-bottom: 8%;
+}
+.msg-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+#msg {
+  font-size: 36px;
+  font-weight: 600;
+  color: black;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  padding: 9.8rem;
+  margin-top: 20%;
+}
+.hide {
+  display: none;
+}
